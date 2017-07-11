@@ -1,0 +1,105 @@
+<html>
+<head><title>My World</title></head>
+<style>
+body {	 
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+
+
+ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+        background-color: black;
+        
+        
+    }
+    li {
+        float:left;
+    }
+  
+li a , .dropbtn {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	width: 225px ;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+    
+</style>
+
+<body text="white" background="dbz.jpg" type="cover">
+<img src ="dragonballz.png" alt="Dragonballz" width="300" height="150" align="center">
+<br>
+<!--form>
+<table style="color:red" border="1" rules="all" width="1500" height="40" bgcolor="black">
+<tr ><b>
+<td align="center"><a href="" style="color:red" >HOME</a></td>
+<td align="center"><a href="" style="color:red" >LATEST UPDATES</a>	</td>
+<td align="center"><a href="" style="color:red" >IMAGES</a>	</td>
+<td align="center"><a href="" style="color:red" >SEASONS</a> <select>
+<option></option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>...</option>
+</select>	</td>
+<td align="center"><a href="" style="color:red" >RELATED COMICS	</a></td>
+<td align="center"><a href="" style="color:red" >CONTACT US	</a></td>
+</b></tr></form-->
+
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#updates">LATEST UPDATES</a></li>
+    <li><a href="#images">IMAGES</a></li>
+    <li ><li class="dropdown">
+    <a href="" class="dropbtn">SEASONS</a>
+    <div class="dropdown-content">
+      <a href="#">Season 1</a>
+      <a href="#">Season 2</a>
+      <a href="#">Season 3</a>
+        <a href="#">More...</a>
+    </div></li>
+     <li><a href="#contact">CONTACT US</a></li>
+</ul>
+
+<!--embed src="G:\Aayush files\DBZ.mp3" autostart="true" hidden="true" ></embed-->
+
+</body>
+</html>

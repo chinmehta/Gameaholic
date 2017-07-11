@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+body{
+  margin: 0;
+}
+header{
+  background-color: black;
+  color: white;
+  padding: 8px 0px 6px 40px;
+  height: 50px;
+}
+header h1{
+  display: inline;
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
+  font-size: 34px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 12px;
+
+}
+
+
+.homered{
+  background-color: #2f3651;
+  padding: 30px 10px 21px 10px;
+}
+
+.divider{
+  background-color: #2f3651;
+  height: 5px;
+}
+.parent {
+
+  height:1000px;
+  background-image: url(consle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.homeblack:hover{
+  background-color: #212d59;
+    padding: 30px 10px 21px 10px;
+    transition: all 0.30s;
+  }
+.homesub{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 15% 5% 0% 60%;
+  font-size: 20px;
+  color:black;
+  font-weight: 2500;
+}
+
+.homedes{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  margin: 0.5% 0% 0% 59.5%;
+  font-size: 35px;
+  background-color: rgba(244, 245, 247,0.6);
+  display: inline-block;
+}
+.homepow{
+  color: black;
+  font-family:  'Raleway', sans-serif;
+    margin: 0% 0% 0% 59.5%;
+    font-size: 35px;
+    background-color: rgba(244, 245, 247,0.6);
+    display: inline-block;
+}
+.buttonhome{
+  display: block;
+  margin: 0.9% 0% 0% 59.5%;
+  background:  rgba(244, 245, 247,0.2);
+  color: black;
+  border: none;
+  height: 50px;
+  font-size: 1.5em;
+  padding: 0 1em;
+  cursor: pointer;
+  outline: solid;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.buttonhome span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonhome span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonhome:hover span {
+  padding-right: 25px;
+}
+
+.buttonhome:hover span:after {
+  opacity: 1;
+  right: 0;
+}
